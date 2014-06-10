@@ -1,0 +1,55 @@
+body
+{
+	background: #808084;
+	font-family: Arial;
+	font-size: 16px;
+}
+header
+{
+	background:#616f67;
+	overflow: hidden;
+	padding: 0.5em;
+}
+header #head_part1
+{
+	border-right: 1px solid white;
+	float: left;
+	overflow: hidden;
+	margin:0;
+}
+header #head_part1 figure
+{
+	float: left;
+}
+header #head_part1 #logo img
+{
+	border-radius: 5px;
+	width: 112.5px;
+}
+header #head_part1 h1
+{
+	display: inline-block;
+	font-weight: normal;
+	margin:0 0.5em 0 0.5em;
+	padding-top: 1em;
+}
+header  #title
+{
+	margin:0.5em 0.5em 0 0.5em;
+	position: relative;
+	font-weight: normal;
+	float: left;
+}
+header  #search_button
+{	
+	position: absolute;
+	right:1em;
+	top: 0;
+	display:inline-block;
+	margin: 0.5em 0 0 0.5em;
+	padding: 0.5em 2em 0.5em 1em;
+	border-radius:10% ;
+	border: 1px solid #808084;
+	background: white;
+}
+
