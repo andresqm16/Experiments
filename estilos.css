@@ -8,7 +8,7 @@ header
 {
 	background:#616f67;
 	overflow: hidden;
-	padding: 0.5em;
+	padding: 0;
 }
 header #head_part1
 {
@@ -35,11 +35,39 @@ header #head_part1 h1
 }
 header  #title
 {
-	margin:0.5em 0.5em 0 0.5em;
+	margin:0.5em 0.5em 0 1em;
 	position: relative;
 	font-weight: normal;
-	float: left;
+	padding-left:14.5em;
 }
+
+header #main_nav
+{
+	background: #fff;
+	position: relative;
+	max-width: 61.9em;
+	margin: 0 auto;
+	border: 1px solid white;
+	left:11.1em;
+	top: 2em;
+}
+
+header #main_nav ul
+{
+	list-style: none;
+	margin-top: 0em;
+}
+header #main_nav ul  li
+{
+display: inline-block;
+margin: 1em 4em 0.5em 0  ;
+}
+header #main_nav ul  li a
+{
+	color: black;
+	text-decoration: none;	
+}
+
 header  #search_button
 {	
 	position: absolute;
@@ -52,4 +80,3 @@ header  #search_button
 	border: 1px solid #808084;
 	background: white;
 }
-
